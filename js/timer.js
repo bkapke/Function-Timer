@@ -19,7 +19,7 @@ var Application = {};
     };
     
     Timer.prototype.constructResultsTable = function() {
-        var table = $('<table id="results-table">');
+        var table = $('<table id="results-table" class="results-table   ">');
         var tableHead = "<tr><th>Function Name</th><th>Execution Time</th></tr>";
         table.append(tableHead);
         $('body').append(table);
