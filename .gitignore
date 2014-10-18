@@ -1,0 +1,11 @@
+#http://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
